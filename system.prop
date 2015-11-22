@@ -65,6 +65,10 @@ qcom.hw.aac.encoder=true
 # CNE
 persist.cne.feature=1
 
+# CPU
+ro.min_freq_0=384000
+ro.min_freq_4=384000
+
 # GPS
 persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
