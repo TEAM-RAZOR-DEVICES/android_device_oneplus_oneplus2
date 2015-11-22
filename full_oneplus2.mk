@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus2 device
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
+# Custom unofficial build tag
+TARGET_UNOFFICIAL_BUILD_ID := VISION
+
 PRODUCT_NAME := cm_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
